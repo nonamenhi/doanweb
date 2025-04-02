@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Đăng ký</h2>
+        <form id="registrationForm">
+            <input type="text" id="fullName" placeholder="Tên đầy đủ" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Mật khẩu" required>
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+    <script>
+        const registrationForm = document.getElementById('registrationForm');
+
+        registrationForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const fullName = document.getElementById('fullName').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            console.log('User Registration Data:', { fullName, email, password });
+            alert('Đăng ký thành công!');
+            registrationForm.reset();
+        });
+    </script>
+</body>
+</html>
