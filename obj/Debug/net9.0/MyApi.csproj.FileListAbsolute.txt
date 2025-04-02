@@ -161,3 +161,4 @@ D:\demodoanwebcuoi\back-end\MyApi\obj\Debug\net9.0\refint\MyApi.dll
 D:\demodoanwebcuoi\back-end\MyApi\obj\Debug\net9.0\MyApi.pdb
 D:\demodoanwebcuoi\back-end\MyApi\obj\Debug\net9.0\MyApi.genruntimeconfig.cache
 D:\demodoanwebcuoi\back-end\MyApi\obj\Debug\net9.0\ref\MyApi.dll
+D:\demodoanwebcuoi\back-end\MyApi\obj\Debug\net9.0\MyApi.sourcelink.json
